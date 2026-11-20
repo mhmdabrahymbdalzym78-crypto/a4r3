@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#081522" />
+    <meta name="description" content="محاكي دوائر التيار المستمر باللغة العربية — إيجل سيركت 1.0" />
+    <title>إيجل سيركت 1.0 | مختبر الدوائر الكهربائية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <style>
+      .file-open-help{max-width:540px;margin:12vh auto;padding:34px 26px;border:1px solid #2b5369;border-radius:20px;background:#0c2232;color:#e9f7fc;text-align:center;font:14px/1.9 system-ui,Tahoma,sans-serif;box-shadow:0 20px 65px #0008}
+      .file-open-help strong{font-size:25px}.file-open-help p{color:#9ab5c5}.file-open-help a{display:block;margin:22px 0;padding:13px;border-radius:10px;background:#8de3f8;color:#082337;text-decoration:none;font-weight:800}.file-open-help small{display:block;color:#86a6b8;font-size:11px}
+      body{background:#061421}
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="file-open-help" dir="rtl">
+        <strong>إيجل سيركت</strong>
+        <p>هذه صفحة مصدر المشروع، ولا تعمل عند فتحها مباشرة من مدير الملفات.</p>
+        <a href="./Eagle-Circuit-Offline.html">افتح النسخة المستقلة التي تعمل مباشرة في المتصفح</a>
+        <small>لتشغيل النسخة الكاملة بحسابات المستخدمين ولوحة المشرف، اتبع تعليمات README وشغّل المشروع عبر Vite.</small>
+      </div>
+    </div>
+    <script>
+      if (location.protocol !== 'file:') {
+        document.querySelector('.file-open-help')?.remove();
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

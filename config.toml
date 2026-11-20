@@ -1,0 +1,4 @@
+project_id = "eagle-circuit"
+
+[functions.admin-users]
+verify_jwt = true

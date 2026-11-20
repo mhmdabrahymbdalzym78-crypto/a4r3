@@ -1,0 +1,7 @@
+إيجل سيركت — اقرأني أولًا
+
+1) لو تريد تشغيل المحاكي الآن بدون تثبيت أي شيء: افتح Eagle-Circuit-Offline.html في Chrome.
+2) لو تريد نظام الحسابات ولوحة المشرف: استخرج المشروع كاملًا، ثم اتبع README.md.
+3) لا تفتح index.html الخاص بمصدر React مباشرة؛ شغّله عبر npm run dev بعد npm install.
+4) بريد المشرف الوحيد المحدد في الحماية هو: mhmdabrahymbdalzym78@gmail.com
+5) لا تشارك كلمة المرور أو مفاتيح Supabase السرية مع أي أحد. مفتاح Service Role يبقى داخل Supabase فقط.
